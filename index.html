@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxiety, OCD & Related Disorders</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray background */
+            color: #334155; /* Dark slate gray text */
+        }
+        .section-title {
+            color: #0f172a; /* Darker blue-gray for titles */
+            border-bottom: 2px solid #64748b; /* Blue-gray border */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .list-item-icon {
+            color: #3b82f6; /* Blue for icons */
+        }
+        .header-bg {
+            background: linear-gradient(to right, #60a5fa, #3b82f6); /* Blue gradient */
+        }
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .sub-section-title {
+            color: #1e293b; /* Slightly lighter than main title */
+            border-bottom: 1px dashed #94a3b8; /* Dashed border for sub-sections */
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+        }
+        .prose ul, .prose ol {
+            padding-left: 1.5rem;
+        }
+        .prose ul li, .prose ol li {
+            margin-bottom: 0.5rem;
+        }
+        .prose ul li::before {
+            content: "\2022"; /* Bullet point */
+            color: #3b82f6;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .prose ol li {
+            list-style-type: decimal;
+            margin-left: 1.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="header-bg py-6 shadow-lg sticky-nav">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold text-white mb-2 rounded-lg py-2">Mental Health Disorders: An Overview</h1>
+            <p class="text-white text-lg opacity-90">Anxiety, Obsessive-Compulsive & Related Disorders</p>
+        </div>
+    </div>
+
+    <nav class="bg-gray-800 text-white p-4 shadow-md sticky-nav">
+        <div class="container mx-auto flex flex-wrap justify-center space-x-4 md:space-x-6">
+            <a href="#anxiety-disorders" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Anxiety Disorders</a>
+            <a href="#specific-phobia" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Specific Phobia</a>
+            <a href="#social-anxiety-disorder" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Social Anxiety Disorder</a>
+            <a href="#panic-disorder" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Panic Disorder</a>
+            <a href="#agoraphobia" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Agoraphobia</a>
+            <a href="#generalized-anxiety-disorder" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Generalized Anxiety Disorder</a>
+            <a href="#ocd-related-disorders" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">OCD & Related Disorders</a>
+            <a href="#ocd" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">OCD</a>
+            <a href="#body-dysmorphic-disorder" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Body Dysmorphic Disorder</a>
+            <a href="#trichotillomania" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">Trichotillomania</a>
+            <a href="#posttraumatic-stress-disorder" class="hover:text-blue-300 transition duration-300 rounded-md px-3 py-1">PTSD</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-6 space-y-12">
+
+        <!-- Section: Anxiety Disorders Introduction -->
+        <section id="anxiety-disorders" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-frown text-blue-500 mr-3"></i> Understanding Anxiety Disorders
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Anxiety disorders are a group of conditions characterized by excessive fear and anxiety, along with related behavioral disturbances. These disorders differ based on the specific objects or situations that trigger fear, anxiety, or avoidance behaviors, and the associated thoughts and feelings.</p>
+                <ul class="list-none space-y-2 mt-4">
+                    <li class="flex items-start"><i class="fas fa-info-circle text-blue-500 mr-2 mt-1 list-item-icon"></i> <strong>Fear:</strong> An emotional response to a real or perceived imminent threat, often associated with fight-or-flight responses.</li>
+                    <li class="flex items-start"><i class="fas fa-hourglass-half text-blue-500 mr-2 mt-1 list-item-icon"></i> <strong>Anxiety:</strong> Anticipation of a future threat, often linked to muscle tension, vigilance, and cautious or avoidant behaviors.</li>
+                </ul>
+                <p class="mt-4">The developmental sequencing of anxiety disorders often begins with Separation Anxiety Disorder, followed by Specific Phobia, Social Anxiety Disorder, Panic Disorder, Agoraphobia, and Generalized Anxiety Disorder.</p>
+            </div>
+        </section>
+
+        <!-- Section: Specific Phobia -->
+        <section id="specific-phobia" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-spider text-orange-500 mr-3"></i> Specific Phobia
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Specific Phobia involves a marked fear or anxiety about a specific object or situation (e.g., flying, heights, animals, injections, blood). This fear is often disproportionate to the actual danger and significantly interferes with daily life.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Marked fear/anxiety about a specific object or situation.</li>
+                    <li>The phobic stimulus almost always provokes immediate fear/anxiety.</li>
+                    <li>Active avoidance or endurance with intense fear/anxiety.</li>
+                    <li>Fear/anxiety is out of proportion to actual danger.</li>
+                    <li>Persistent, typically lasting 6 months or more.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Increased physiological arousal (except for blood-injection-injury type, which may cause vasovagal fainting).</li>
+                    <li>Associated with abnormal activity in the amygdala, anterior cingulate cortex, thalamus, and insula.</li>
+                    <li>Comorbidity with other anxiety, depressive, bipolar, substance-related, somatic symptom, and personality disorders.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence in the US is 8%-12%; generally lower in Asian, African, Latin American countries.</li>
+                    <li>Women are more frequently affected (approx. 2:1 ratio).</li>
+                    <li>Onset usually in early childhood (median 7-11 years).</li>
+                    <li>Risk factors include negative affectivity, behavioral inhibition, parental overprotectiveness, and genetic susceptibility (e.g., specific phobia of animals).</li>
+                    <li>Associated with suicidal thoughts and attempts.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Social Anxiety Disorder -->
+        <section id="social-anxiety-disorder" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-users-slash text-purple-500 mr-3"></i> Social Anxiety Disorder (Social Phobia)
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Social Anxiety Disorder is characterized by marked fear or anxiety about one or more social situations where the individual is exposed to possible scrutiny by others. The fear stems from concern about negative evaluation (e.g., humiliating or embarrassing oneself).</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Fear/anxiety in social situations involving scrutiny (e.g., conversations, eating, performing).</li>
+                    <li>Fear of acting in a way or showing anxiety symptoms that will be negatively evaluated.</li>
+                    <li>Social situations almost always provoke fear/anxiety.</li>
+                    <li>Avoided or endured with intense fear/anxiety.</li>
+                    <li>Fear/anxiety is out of proportion to actual threat.</li>
+                    <li>Persistent, typically lasting 6 months or more.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Individuals may be inadequately assertive, overly submissive, or overly controlling of conversation.</li>
+                    <li>May show rigid body posture, inadequate eye contact, or soft voice.</li>
+                    <li>Self-medication with substances is common. Blushing is a hallmark physical response.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence in the US is approximately 7%. Higher rates in women than men in the general population.</li>
+                    <li>Onset does not differ by gender, but women report more fears and comorbidity.</li>
+                    <li>Risk factors include behavioral inhibition, fear of negative evaluation, harm avoidance, negative social experiences (e.g., peer victimization, childhood maltreatment).</li>
+                    <li>Modest genetic contribution (approx. 30% heritability).</li>
+                    <li>Associated with elevated rates of school dropout, decreased well-being, employment, and quality of life.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Panic Disorder -->
+        <section id="panic-disorder" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-heartbeat text-red-500 mr-3"></i> Panic Disorder
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Panic Disorder is characterized by recurrent, unexpected panic attacks. A panic attack is an abrupt surge of intense fear or discomfort that reaches a peak within minutes, accompanied by four or more specific physical and cognitive symptoms.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Recurrent unexpected panic attacks.</li>
+                    <li>At least one attack followed by 1 month or more of persistent concern about additional attacks/consequences or significant maladaptive change in behavior.</li>
+                    <li>Symptoms include palpitations, sweating, trembling, shortness of breath, choking, chest pain, nausea, dizziness, chills/heat, numbness/tingling, derealization/depersonalization, fear of losing control/"going crazy", fear of dying.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Constant or intermittent feelings of anxiety related to health and mental health.</li>
+                    <li>Excessive use of drugs (alcohol, illicit drugs) to control attacks, or extreme behaviors (e.g., severe food restrictions).</li>
+                    <li>Worries about panic attacks often relate to physical concerns (e.g., heart attack), social concerns (embarrassment), or mental functioning (going crazy).</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence in the US and Europe is about 2%-3% in adults/adolescents.</li>
+                    <li>Women are more frequently affected than men (approx. 2:1 ratio).</li>
+                    <li>Risk factors include negative affectivity, anxiety sensitivity, behavioral inhibition, harm avoidance, history of trauma/stress, childhood adversities, parental overprotection, low emotional warmth, and smoking.</li>
+                    <li>Multiple genes likely confer vulnerability; increased risk among offspring of parents with anxiety, depressive, and bipolar disorders.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Agoraphobia -->
+        <section id="agoraphobia" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-street-view text-teal-500 mr-3"></i> Agoraphobia
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Agoraphobia is marked fear or anxiety about two or more of five specific situations: using public transportation, being in open spaces, being in enclosed places, standing in line/being in a crowd, and being outside of the home alone. Individuals fear these situations because escape might be difficult or help unavailable if panic-like symptoms occur.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Marked fear/anxiety about at least two of the five agoraphobic situations.</li>
+                    <li>Situations are feared because of thoughts that escape might be difficult or help unavailable.</li>
+                    <li>Situations almost always provoke fear/anxiety.</li>
+                    <li>Actively avoided, require a companion, or are endured with intense fear/anxiety.</li>
+                    <li>Fear/anxiety is out of proportion to actual danger.</li>
+                    <li>Persistent, typically lasting 6 months or more.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>In severe forms, can cause individuals to become completely homebound.</li>
+                    <li>Demoralization, depressive symptoms, and abuse of alcohol/sedative medication are common.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Approximately 1%-1.7% of adolescents and adults worldwide experience symptoms annually.</li>
+                    <li>Women are twice as likely as men to experience agoraphobia.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Generalized Anxiety Disorder -->
+        <section id="generalized-anxiety-disorder" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-cloud-sun-rain text-blue-600 mr-3"></i> Generalized Anxiety Disorder (GAD)
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Generalized Anxiety Disorder is characterized by excessive anxiety and worry occurring more days than not for at least 6 months, about a number of events or activities. The individual finds it difficult to control the worry, and it is associated with specific physical and cognitive symptoms.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Excessive anxiety and worry for at least 6 months, about multiple events/activities.</li>
+                    <li>Difficulty controlling the worry.</li>
+                    <li>Associated with three (or more) of six symptoms: restlessness, easily fatigued, difficulty concentrating, irritability, muscle tension, sleep disturbance.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Commonly associated with muscle tension (trembling, twitching, aches).</li>
+                    <li>May experience somatic symptoms (sweating, nausea, diarrhea) and an exaggerated startle response.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence is 0.9% among adolescents and 2.9% among adults in the US.</li>
+                    <li>Women and adolescent girls are at least twice as likely as men and adolescent boys to experience GAD.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Obsessive-Compulsive and Related Disorders Introduction -->
+        <section id="ocd-related-disorders" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-lock text-gray-700 mr-3"></i> Obsessive-Compulsive and Related Disorders
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>This category includes Obsessive-Compulsive Disorder (OCD), Body Dysmorphic Disorder, Hoarding Disorder, Trichotillomania (Hair-Pulling Disorder), and Excoriation (Skin-Picking) Disorder, among others. These disorders share features of obsessive thoughts and/or repetitive behaviors.</p>
+            </div>
+        </section>
+
+        <!-- Section: Obsessive-Compulsive Disorder (OCD) -->
+        <section id="ocd" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-hand-sparkles text-pink-500 mr-3"></i> Obsessive-Compulsive Disorder (OCD)
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>OCD is characterized by the presence of obsessions, compulsions, or both. Obsessions are recurrent and persistent thoughts, urges, or images experienced as intrusive and unwanted, causing distress. Compulsions are repetitive behaviors or mental acts performed in response to an obsession or rigidly applied rules, aimed at preventing or reducing anxiety/distress.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><strong>Obsessions:</strong> Recurrent/persistent intrusive thoughts, urges, or images; attempts to ignore/suppress them or neutralize with compulsions.</li>
+                    <li><strong>Compulsions:</strong> Repetitive behaviors (e.g., hand washing, checking) or mental acts (e.g., praying, counting) performed in response to obsessions or rigid rules.</li>
+                    <li>Obsessions or compulsions are time-consuming (more than 1 hour/day) or cause clinically significant distress/impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Sensory phenomena (physical sensations, "just-right" feelings) often precede compulsions.</li>
+                    <li>Avoidance of triggers. Dysfunctional beliefs like inflated sense of responsibility and overestimation of threats.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence in the US is 1.2%.</li>
+                    <li>Women are slightly more affected in adulthood; men more common in childhood.</li>
+                    <li>Risk factors include greater internalizing symptoms, negative emotionality, behavioral inhibition, adverse perinatal events, childhood abuse/trauma.</li>
+                    <li>Genetic factors: approx. 2x risk for first-degree relatives. Dysfunction in orbitofrontal cortex, anterior cingulate cortex, striatum implicated.</li>
+                    <li>High comorbidity with anxiety and depressive disorders.</li>
+                    <li>Associated with suicidal ideation and attempts (mean lifetime suicide attempts of 14.2%).</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Psychological Causal Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><strong>Mowrer's Two-Process Theory:</strong> Neutral stimuli associated with frightening thoughts (classical conditioning), and compulsions reduce anxiety (reinforcement).</li>
+                    <li><strong>Preparedness:</strong> Obsessions about dirt/contamination may have evolutionary roots.</li>
+                    <li><strong>Cognitive Factors:</strong> Difficulty suppressing unwanted thoughts (paradoxical increase), inflated sense of responsibility, thought-action fusion (thinking a sin is morally equivalent to doing it). Low confidence in memory contributes to repetitive behaviors.</li>
+                    <li><strong>Neurotransmitters:</strong> Increased serotonin activity and sensitivity of brain structures to serotonin, also involvement of dopaminergic, GABA, and glutamate systems.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Body Dysmorphic Disorder -->
+        <section id="body-dysmorphic-disorder" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-mirror text-indigo-500 mr-3"></i> Body Dysmorphic Disorder (BDD)
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Body Dysmorphic Disorder is characterized by a preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear only slight to others. This preoccupation leads to repetitive behaviors or mental acts (e.g., mirror checking, excessive grooming, comparing appearance) and causes significant distress or impairment.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Preoccupation with perceived defects/flaws in appearance.</li>
+                    <li>Repetitive behaviors or mental acts in response to appearance concerns.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                    <li>Not better explained by concerns with body fat/weight (e.g., eating disorder).</li>
+                    <li>Can include muscle dysmorphia (preoccupation with being too small/insufficiently muscular).</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Intense preoccupation leading to avoidance of activities and social isolation (average employment rate ~50%).</li>
+                    <li>Common focus areas: skin, hair, nose, eyes, breasts/chest, stomach.</li>
+                    <li>Frequent reassurance-seeking from others or mirror checking (often leads to feeling worse).</li>
+                    <li>Excessive grooming, camouflaging perceived defects.</li>
+                    <li>Ideas or delusions of reference (believing others notice/mock them).</li>
+                    <li>High levels of anxiety, social anxiety, depression, negative affectivity, rejection sensitivity, perfectionism.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Affects 1-2% of the general population, up to 8% of people with depression.</li>
+                    <li>Prevalence is approximately equal in men and women, though focus areas differ (men: genitals, body build, balding; women: skin, stomach, breasts).</li>
+                    <li>Onset usually in adolescence.</li>
+                    <li>High rates of suicidal ideation (80%) and attempts (28%).</li>
+                    <li>Risk factors: childhood neglect, abuse, trauma, teasing.</li>
+                    <li>Heritability estimated at 37%-49%; shared genetic vulnerability with OCD.</li>
+                    <li>Sociocultural context valuing attractiveness and beauty, and individual self-schemas heavily focused on appearance.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Trichotillomania (Hair-Pulling Disorder) -->
+        <section id="trichotillomania" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-user-hair text-brown-500 mr-3"></i> Trichotillomania (Hair-Pulling Disorder)
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Trichotillomania is characterized by recurrent pulling out of one's hair, resulting in hair loss, and repeated unsuccessful attempts to decrease or stop hair pulling. It was previously categorized as an impulse-control disorder but is now grouped under obsessive-compulsive and related disorders in DSM-5 due to its relationship with OCD.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Diagnostic Criteria Highlights:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Recurrent hair pulling leading to hair loss.</li>
+                    <li>Repeated attempts to decrease or stop hair pulling.</li>
+                    <li>Causes clinically significant distress or impairment.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Associated Features:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>May involve rituals with pulled hair (e.g., specific hair search, visual examination, oral manipulation).</li>
+                    <li>Triggered by anxiety or boredom; preceded by increasing tension or followed by gratification/relief.</li>
+                    <li>Varying degrees of conscious awareness (focused vs. automatic).</li>
+                    <li>Often occurs privately, but sometimes with immediate family.</li>
+                    <li>Some individuals pull hair from pets, dolls, or fibrous materials.</li>
+                </ul>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Prevalence & Risk Factors:</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>12-month prevalence in the USA ranges from 1% to 2%.</li>
+                    <li>Women are more frequently affected than men (though some surveys show similar rates).</li>
+                    <li>Evidence for genetic vulnerability; more common in individuals with OCD and their first-degree relatives.</li>
+                    <li>Frequently accompanied by major depressive disorder and excoriation (skin-picking) disorder.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Trauma- and Stressor-Related Disorders -->
+        <section id="posttraumatic-stress-disorder" class="card p-8">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-bomb text-gray-800 mr-3"></i> Trauma- and Stressor-Related Disorders
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>This category includes Posttraumatic Stress Disorder (PTSD), characterized by a specific set of symptoms that develop following exposure to a traumatic event.</p>
+                <h3 class="sub-section-title text-2xl font-medium mt-6">Posttraumatic Stress Disorder (PTSD)</h3>
+                <p>PTSD involves exposure to actual or threatened death, serious injury, or sexual violence. Symptoms fall into several clusters:</p>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><strong>Intrusion Symptoms:</strong> Recurrent, involuntary, and intrusive distressing memories of the event; recurrent distressing dreams; dissociative reactions (e.g., flashbacks); intense/prolonged psychological distress or physiological reactions to trauma-related cues.</li>
+                    <li><strong>Avoidance:</strong> Persistent avoidance of distressing memories, thoughts, or feelings about the event, or external reminders (people, places, conversations, objects, situations).</li>
+                    <li><strong>Negative Alterations in Cognitions and Mood:</strong> Inability to remember aspects of the event, negative beliefs/expectations about oneself/others/world, distorted cognitions about cause/consequence of event leading to self-blame, negative emotional state, diminished interest, detachment, anhedonia.</li>
+                    <li><strong>Alterations in Arousal and Reactivity:</strong> Irritable behavior/angry outbursts, reckless/self-destructive behavior, hypervigilance, exaggerated startle response, problems with concentration, sleep disturbance.</li>
+                    <li>Symptoms must last for more than 1 month and cause clinically significant distress or impairment.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-12">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2024 Mental Health Disorders Overview. All rights reserved.</p>
+            <p class="mt-2">Content based on provided notes.</p>
+        </div>
+    </footer>
+</body>
+</html>
